@@ -1,5 +1,5 @@
 # Search-Engine
-This project integrates advanced preprocessing steps and leverages Boolean retrieval and inverted indexing to optimize search results. Here's a sneak peek into the technical aspects:
+This project integrates preprocessing steps and leverages Boolean retrieval and inverted indexing to optimize search results. Here's a sneak peek into the technical aspects:
 Key Preprocessing Steps:
 
 Data Handling: Utilized Pandas for efficient data manipulation.
