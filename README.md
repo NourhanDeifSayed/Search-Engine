@@ -1,4 +1,5 @@
 # Search-Engine
+This project integrates advanced preprocessing steps and leverages Boolean retrieval and inverted indexing to optimize search results. Here's a sneak peek into the technical aspects:
 Key Preprocessing Steps:
 
 Data Handling: Utilized Pandas for efficient data manipulation.
@@ -41,4 +42,8 @@ Explored embedding features to enhance document understanding:
 
 Leveraged TensorFlow and TensorFlow Hub for embedding generation.
 
-Extracted specific embedding vectors to improve the search engine’s precision.
+We extracted specific embedding vectors to improve the search engine’s precision.
+![IR search engine](https://github.com/NourhanDeifSayed/Search-Engine/assets/154087649/604e1dff-7aa2-4dcd-ba4b-9ef6e772ecd6)
+
+
+![IR search engine_2](https://github.com/NourhanDeifSayed/Search-Engine/assets/154087649/348ebf75-3d19-4407-9a1e-7f8967805cc8)
