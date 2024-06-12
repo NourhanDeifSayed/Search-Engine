@@ -1,48 +1,25 @@
 # Search-Engine
-This project integrates preprocessing steps and leverages Boolean retrieval and inverted indexing to optimize search results. Here's a sneak peek into the technical aspects:
-Key Preprocessing Steps:
+This project integrates various NLP techniques and advanced search functionalities. Here’s a breakdown of what it includes:
 
-Data Handling: Utilized Pandas for efficient data manipulation.
+Key Components:
+Text Preprocessing: Implemented using NLTK for tokenization, stopwords removal, and stemming to clean and prepare data for indexing.
+Indexing: Leveraged PyTerrier for indexing documents, enabling efficient retrieval and processing.
+Search Interface: Developed a user-friendly search interface using Flask and Bootstrap, allowing users to input queries and retrieve relevant results in real time.
 
-Text Processing:
+Features:
+Query Processing: Preprocesses user queries using the same methods as document preprocessing for accurate search results.
+TF-IDF Ranking: Used TF-IDF for ranking documents based on query relevance.
+Real-time Results: Displays top search results along with relevant document details and execution time.
 
-Tokenization: Implemented using NLTK.
+Technical Stack:
+Python Libraries: NLTK for NLP tasks, PyTerrier for indexing and retrieval.
+Web Framework: Flask for building the web interface, integrating Bootstrap for UI enhancements.
 
-Stopwords Removal: Used NLTK stopwords to filter out common words.
-
-Stemming: Applied PorterStemmer to reduce words to their base form.
-
-Cleaning: Custom function to remove URLs, special characters, and unnecessary white spaces from text.
-
-Boolean Retrieval and Inverted Index:
-
-The core of our search functionality is powered by Boolean retrieval and inverted index methods using PyTerrier. This ensures precise and relevant search results by efficiently indexing and retrieving documents.
-
-Query Processing:
-
-We preprocess queries similarly to how we process documents:
-
-Remove stopwords and special characters.
-
-Tokenize and stem the text to ensure consistency.
-
-Example: Cleaned and stemmed queries to match the indexed documents better.
-
-Ranking Techniques:
-
-We used TF-IDF and BM25 ranking techniques to enhance the accuracy of search results. TF-IDF helps assess the importance of words within documents, while BM25 provides an effective information retrieval model.
-
-Query Expansion and Comparison:
-
-We utilized query expansion techniques to enhance search results. For instance, expanding the original query with related terms improves the relevance of retrieved documents. We compare search results before and after expansion to validate the improvement.
-
-Embedding Features:
-
-Explored embedding features to enhance document understanding:
-
-Leveraged TensorFlow and TensorFlow Hub for embedding generation.
-
-We extracted specific embedding vectors to improve the search engine’s precision.
+Example Analysis:
+This project not only enhances search capabilities but also demonstrates proficiency in:
+Data preprocessing and indexing techniques.
+Integration of NLP for enhanced search relevance.
+Web development skills using Flask for creating interactive search experiences.
 ![IR search engine](https://github.com/NourhanDeifSayed/Search-Engine/assets/154087649/604e1dff-7aa2-4dcd-ba4b-9ef6e772ecd6)
 
 
